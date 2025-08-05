@@ -4,7 +4,7 @@ WORKDIR /root/nginx_practice
 
 COPY package.json .
 COPY nginx_page.html . 
-COPY nginx_images ./nginx_images
+##COPY nginx_images ./nginx_images
 COPY server.js .
 
 RUN npm install
