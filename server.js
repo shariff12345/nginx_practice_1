@@ -5,7 +5,7 @@ const port = 4000;
 
 const repliApp = process.env.APP_NAME
 
-//app.use('/nginx_images', express.static(path.join(__dirname, 'nginx_images')));
+app.use('/nginx_file', express.static(path.join(__dirname, 'nginx_file')));
 
 app.use('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'nginx_page.html'));
