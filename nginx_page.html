@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="nginx_file/mediaqueries.css" />
 </head>
 <body>
-    TESTING
+
     <nav id="desktop-nav">
-         <div class="logo">Doh</div>
+         <div class="logo">Bene the Cat</div>
          <div>
             <ul class="nav-links">
             <li><a href="#about">About</a></li>
@@ -21,7 +21,7 @@
          </div>
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo">Doh</div>
+        <div class="logo">Bene the Cat</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -37,7 +37,49 @@
         </div>
 
     </nav>
-       
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.jpg" alt="Bene Profile Picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Bene</h1>
+            <p class="section__text__p2">Amazing Cat</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open ('./assets/profile-pic.jpg')">Download Profile</button>
+                <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+            </div>
+            <div id="social-container">
+                <img src="./assets/link-icon.png" alt="My linkedin profile" class = "icon" onclick="location.href='https://linkedin.com'">
+                <img src="./assets/git-hub.png" alt="My git-hub" class = "icon" onclick="location.href='https://github.com/shariff12345'">
+            </div>
+        </div>
+
+    </section> 
+    <section id="about">
+        <p class="section__text__p1">Get to Know More</p>
+        <h1 class="title">About me</h1>
+        <div class="section-cointainer">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.jpg" alt="Profile picture" class="about-pic"/>
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Experience icon" class="icon"/>
+                        <h3>Experience</h3>
+                        <p>2+ Years <br/>Amazing Cat</p>
+                    </div> 
+                    <div class="details-container">
+                        <img src="./assets/education.jpg" alt="Education icon" class="icon"/>
+                        <h3>Education</h3>
+                        <p>BS Computer Engineering <br/>Amazing Cat</p>
+                    </div>    
+                </div>
+            </div>
+        </div>
+
+    </section>  
     <script src="nginx_file/script.js"></script>
 
 </body>
