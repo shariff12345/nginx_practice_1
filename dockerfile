@@ -5,6 +5,7 @@ WORKDIR /root/nginx_practice
 COPY package.json .
 COPY nginx_page.html . 
 COPY nginx_file ./nginx_file
+COPY assets ./assets
 COPY server.js .
 
 
